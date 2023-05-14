@@ -1,6 +1,5 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable react/react-in-jsx-scope */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -54,7 +53,7 @@ function BuiltByDevelopers() {
         sx={{ mx: "auto", textAlign: "center" }}
       >
         <MKTypography variant="h3" color="info" textGradient mb={4}>
-          Ажлийн ЗАР
+          Ажлын зар
         </MKTypography>
       </Grid>
       <Container sx={{ mt: 4 }}>{renderData}</Container>

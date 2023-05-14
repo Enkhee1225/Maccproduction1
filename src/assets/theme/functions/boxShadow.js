@@ -1,5 +1,4 @@
 /* eslint-disable default-param-last */
-/* eslint-disable import/no-unresolved */
 /**
 =========================================================
 * Material Kit 2 React - v2.0.0

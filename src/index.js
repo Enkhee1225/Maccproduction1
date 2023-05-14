@@ -1,6 +1,4 @@
-/* eslint-disable import/no-absolute-path */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
+
 /**
 =========================================================
 * Material Kit 2 React - v2.0.0

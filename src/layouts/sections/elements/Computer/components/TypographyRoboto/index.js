@@ -1,6 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/self-closing-comp */
-/* eslint-disable prettier/prettier */
-/* eslint-disable import/no-unresolved */
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0

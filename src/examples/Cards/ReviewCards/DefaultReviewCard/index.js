@@ -1,4 +1,4 @@
-/* eslint-disable import/no-unresolved */
+/* eslint-disable react/react-in-jsx-scope */
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0

@@ -1,7 +1,4 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable import/no-duplicates */
-/* eslint-disable import/no-absolute-path */
-/* eslint-disable import/no-unresolved */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0

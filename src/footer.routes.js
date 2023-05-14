@@ -1,5 +1,5 @@
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable react/react-in-jsx-scope */
+
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -30,37 +30,37 @@ export default {
   ],
   menus: [
     {
-      name: "company",
+      name: "",
       items: [
-        { name: "about us" },
-        { name: "freebies" },
-        { name: "premium tools" },
-        { name: "blog" },
+        { name: ""},
+        { name: "" },
+        { name: "" },
+        { name: "" },
       ],
     },
     {
-      name: "resources",
+      name: "",
       items: [
-        { name: "illustrations" },
-        { name: "bits & snippets" },
-        { name: "affiliate program" },
+        { name: "" },
+        { name: "" },
+        { name: "" },
       ],
     },
     {
-      name: "help & support",
+      name: "",
       items: [
-        { name: "contact us" },
-        { name: "knowledge center" },
-        { name: "custom development" },
-        { name: "sponsorships" },
+        { name: "" },
+        { name: "" },
+        { name: "" },
+        { name: "" },
       ],
     },
     {
-      name: "legal",
+      name: "",
       items: [
-        { name: "terms & conditions" },
-        { name: "privacy policy" },
-        { name: "licenses (EULA)" },
+        { name: "" },
+        { name: "" },
+        { name: "" },
       ],
     },
   ],

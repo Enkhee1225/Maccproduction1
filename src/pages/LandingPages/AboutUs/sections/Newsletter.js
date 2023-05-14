@@ -1,7 +1,7 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable react/self-closing-comp */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
+
 /* eslint-disable react/jsx-no-duplicate-props */
 /*
 =========================================================

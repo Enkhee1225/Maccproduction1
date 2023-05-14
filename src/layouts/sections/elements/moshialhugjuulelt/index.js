@@ -1,4 +1,5 @@
-/* eslint-disable import/no-unresolved */
+/* eslint-disable react/react-in-jsx-scope */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -25,7 +26,7 @@ import MKBox from "components/MKBox";
 
 function Typography() {
   const bgImage =
-    "https://previews-te.wetransfer.net/file/wetransfer/p1ot/c0fd56564705af88f29277610e59c55120230421065910/hl-25079463986?width=512&height=512&source=storm&origin=transfer&url=https%3A%2F%2Fstorm-eu-west-1.wetransfer.net%2Ffiles%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2h3bG9MV0JRQT0iLCJleHAiOm51bGwsInB1ciI6ImludGVybmFsX2ZpbGVfZG93bmxvYWQifX0--0d3cddc1dba21197ad18f5d200efcb9b2de279c7463dbd62787687c19b981564%3Ftoken%3DeyJhbGciOiJIUzI1NiJ9.eyJzdG9ybS5zZmUiOiJleUpmY21GcGJITWlPbnNpYldWemMyRm5aU0k2SWtKQmFITkxkMmgzYkc5TVYwSlJRVDBpTENKbGVIQWlPbTUxYkd3c0luQjFjaUk2SW1sdWRHVnlibUZzWDJacGJHVmZaRzkzYm14dllXUWlmWDAtLTBkM2NkZGMxZGJhMjExOTdhZDE4ZjVkMjAwZWZjYjliMmRlMjc5Yzc0NjNkYmQ2Mjc4NzY4N2MxOWI5ODE1NjQiLCJleHAiOjE2ODIwNjQyMDcsImlhdCI6MTY4MjA2MDYwNywia2lkIjoiV1V0eCJ9.FcjCKKYURHSFNNoJuZQI7rhTvZmDOQdSSV2b3waynSU&s=4acc69bfc09fd7845ac21bf20cee084be8157589&Expires=1682064207&Signature=ctAallTzMYdkHzSLPedpzdMdbadRulHNqB-n35VAhOjx8ZW85V7nEzd6vZB5kyJpK5vMxaer6Jl7gegY8yQkyNBv6zRSaFDApc4uj6i-pbH75R28yo79PsgxWQ--DMML3AfXblxk0hdWxhzsKM8TUKM9ypfLUKQDp~~9OZWPm9uU9-nQjI18FT5ScYZ9jrctZXcHYOj3PLp76C6RYLVuOHH2REKLIgmzdzG6CwwSW2nApQ22f2dy~V-TCvcYAfyfWCScStHwmFg8mxjnvoGtw5pSEkt3lRc9TGwlTue0AGu1ZbdHr3BjCQf8i27xacdizKllrnt6cfOI17QvJFl-og__&Key-Pair-Id=APKAIRLQFERKGUWFG7GQ";
+    "https://scontent.xx.fbcdn.net/v/t1.15752-9/344786824_1444963855908836_4968936130070877289_n.jpg?stp=dst-jpg_p403x403&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHEgOSH-D_uFHxKpcEGNuG3KMSmY7PBnQsoxKZjs8GdC2b_R3JZVVwJg4yBE-LWcDAv-7xRDbgG0fRTm9JnsG-O&_nc_ohc=jYoHKTjXrFYAX_aQ7RO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTJHIZdhKwNO32r7e9kRgP9NtYLNU_wmg-limPp2IcAZQ&oe=6485549B";
 
   return (
     <BaseLayout

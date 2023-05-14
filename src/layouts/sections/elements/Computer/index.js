@@ -1,4 +1,5 @@
-/* eslint-disable import/no-unresolved */
+/* eslint-disable react/react-in-jsx-scope */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -29,7 +30,7 @@ import TypographyRoboto from "layouts/sections/elements/Computer/components/Typo
 
 function Typography() {
   const bgImage =
-    "https://previews-te.wetransfer.net/file/wetransfer/j1ot/e6aaba0f5c76a3be8cf697372bb0435d20230414110741/hl-24797555376?width=512&height=512&source=storm&origin=transfer&url=https%3A%2F%2Fstorm-eu-west-1.wetransfer.net%2Ffiles%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2dTa3JyRkJRQT0iLCJleHAiOm51bGwsInB1ciI6ImludGVybmFsX2ZpbGVfZG93bmxvYWQifX0--2f17bfc83938382f13e0f81c9266c10c00f3fa167f3f09cbd85da4df7c9b8082%3Ftoken%3DeyJhbGciOiJIUzI1NiJ9.eyJzdG9ybS5zZmUiOiJleUpmY21GcGJITWlPbnNpYldWemMyRm5aU0k2SWtKQmFITkxkMmRUYTNKeVJrSlJRVDBpTENKbGVIQWlPbTUxYkd3c0luQjFjaUk2SW1sdWRHVnlibUZzWDJacGJHVmZaRzkzYm14dllXUWlmWDAtLTJmMTdiZmM4MzkzODM4MmYxM2UwZjgxYzkyNjZjMTBjMDBmM2ZhMTY3ZjNmMDljYmQ4NWRhNGRmN2M5YjgwODIiLCJleHAiOjE2ODE4MzQ2ODIsImlhdCI6MTY4MTgzMTA4Miwia2lkIjoiV1V0eCJ9.qs-NAEGZCtEDvo1SCHJ-Dxi8gCCuFZGoxtLSSSwp_zY&s=aff062c6656a34601ea7f50bf8932bd35b3d7fd3&Expires=1681834682&Signature=bOcRsOhwxRjdnb2mH-AE7BezAYzS6bVNIkqx8shfI50Um7DI0hWhiyEuN2QjNFu~1lwaW4ODBmPAeL92kYBERvavn8uuixJobrEFaNXiP7h02gLh2IDI3W9KiQoPnH6fT3rDxrf5X2GMTvTcIPF8c-TF8WeZh-tmhOCAqi2-Hnbbl~96eOtLAyqmYfmB4kFbXtAQu2bCZehlZu16SOSnTz6O-04XzlNLmxhABzNk7YOIuAXpPJV9RlqAwPlGGSj1O0nTOh1KBnR9XhIkeTsrKZiMImPYEnjdKwwfcDQlmRYuIp7rpwyGYohSRPnCUSiY4a7hODCb16L7ejr8vVydQg__&Key-Pair-Id=APKAIRLQFERKGUWFG7GQ";
+    "https://scontent.xx.fbcdn.net/v/t1.15752-9/345991252_6544867702214146_8262698714888185980_n.jpg?stp=dst-jpg_p403x403&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=flm7XTj72X0AX-WiGpk&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRWd6Pbzk3ai52ROriJRng59Xj-MJ1ur040hVuT_8CG7g&oe=64831358";
 
   return (
     <BaseLayout

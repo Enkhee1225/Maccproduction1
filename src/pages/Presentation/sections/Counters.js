@@ -1,6 +1,5 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable react/react-in-jsx-scope */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -32,13 +31,13 @@ function Counters() {
       <Container>
         <Grid container item xs={12} lg={9} sx={{ mx: "auto" }}>
           <Grid item xs={12} md={4}>
-            <DefaultCounterCard count={220} suffix="+" title="Өмнө хийсэн ажлууд" />
+            <DefaultCounterCard count={220} suffix="+" title="Хийсэн ажлууд" />
           </Grid>
           <Grid item xs={12} md={4} display="flex">
-            <DefaultCounterCard count={14} suffix="+" title="Хийгдэж буй ажлууд" />
+            <DefaultCounterCard count={14} suffix="+" title="Хийгдэж байгаа ажлууд" />
           </Grid>
           <Grid item xs={12} md={4}>
-            <DefaultCounterCard count={4} title="Ирээдүйд хийх ажлууд" />
+            <DefaultCounterCard count={4} title="Хийх ажлууд" />
           </Grid>
         </Grid>
       </Container>

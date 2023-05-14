@@ -1,6 +1,6 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable no-unused-vars */
 /**
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -84,11 +84,11 @@ const routes = [
     component: <ContactUs />,
   },
   {
-    name: "Бусад",
+    name: "Үнийн санал",
     icon: <Icon>article</Icon>,
     collapse: [
       {
-        name: "Үйл ажилгаа",
+        name: "Бүтээгдэхүүн",
         dropdown: true,
         collapse: [
           {
@@ -147,7 +147,7 @@ const routes = [
             component: <Zuvulguu />,
           },
           {
-            name: "Мошиал хөгжлүүлэлт",
+            name: "Сошиал хөгжүүлэлт",
             route: "/sections/elements/moshialhugjuulelt",
             component: <Moshial />,
           },

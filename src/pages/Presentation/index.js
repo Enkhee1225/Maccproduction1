@@ -1,6 +1,6 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/self-closing-comp */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -39,7 +39,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/poster.jpg";
+import bgImage from "assets/images/nuurbanner.jpg";
 
 function Presentation() {
   return (

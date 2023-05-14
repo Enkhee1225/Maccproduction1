@@ -1,5 +1,7 @@
+/* eslint-disable react/react-in-jsx-scope */
+
 /* eslint-disable react/jsx-no-duplicate-props */
-/* eslint-disable import/no-unresolved */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -29,12 +31,7 @@ function Typography() {
       <Container>
         <Grid container alignItems="center" py={2}>
           <Grid item xs={12} sm={3}>
-            <MKTypography
-              variant="h2"
-              color="white"
-              fontWeight="bold"
-              textTransform="uppercase"
-            >
+            <MKTypography variant="h2" color="white" fontWeight="bold" textTransform="uppercase">
               Багц 1
             </MKTypography>
           </Grid>
@@ -134,12 +131,7 @@ function Typography() {
         </Grid>
         <Grid container alignItems="center" py={2}>
           <Grid item xs={12} sm={3}>
-            <MKTypography
-              variant="h2"
-              color="white "
-              fontWeight="bold"
-              textTransform="uppercase"
-            >
+            <MKTypography variant="h2" color="white " fontWeight="bold" textTransform="uppercase">
               Багц 2
             </MKTypography>
           </Grid>

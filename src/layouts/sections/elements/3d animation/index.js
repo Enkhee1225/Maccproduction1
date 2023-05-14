@@ -1,4 +1,5 @@
-/* eslint-disable import/no-unresolved */
+/* eslint-disable react/react-in-jsx-scope */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -25,7 +26,7 @@ import MKBox from "components/MKBox";
 
 function Typography() {
   const bgImage =
-    "https://scontent.xx.fbcdn.net/v/t1.15752-9/341137426_1251668985761045_8432579129278698725_n.png?stp=dst-png_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_ohc=0bmfb9BA7l8AX9epWSO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT2CyOVOQKGVD7HgvvMEcW651RPTiY-bFtAK1gqa4dnqQ&oe=6468859C";
+    "https://scontent.xx.fbcdn.net/v/t1.15752-9/344239578_991616902008172_7970652677484307768_n.jpg?stp=dst-jpg_p403x403&_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeG4GUllMbz30Pvcrm0T_2EMZi4N-7kXIolmLg37uRciiQL6K2mqy15IzYXXbB9RLppojy_WOD7Qhwr3FAxQwsd8&_nc_ohc=eMMx1Dhq264AX-QPPli&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSzo28SJLsBagAGKcLp-lAj1JiCMXbcwZopefE1piLeuQ&oe=64857AA3";
 
   return (
     <BaseLayout

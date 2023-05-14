@@ -1,6 +1,5 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable react/react-in-jsx-scope */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -35,6 +34,8 @@ import team4 from "assets/images/bilguun.jpg";
 import team5 from "assets/images/tuwshuu.jpg";
 import team6 from "assets/images/duluuu 2.jpg";
 import team7 from "assets/images/baylagmaa.jpg";
+import team8 from "assets/images/bayrdelger.jpg";
+import team0 from "assets/images/BDMTgroup.jpg.png";
 
 function Team() {
   return (
@@ -56,6 +57,17 @@ function Team() {
           </Grid>
         </Grid>
         <Grid container spacing={3}>
+        <Grid item xs={12} lg={6}>
+            <MKBox mb={1}>
+              <HorizontalTeamCard
+                image={team0}
+                name="BDMT Group"
+                position={{ color: "info", label: "" }}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+          </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
@@ -78,19 +90,19 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team3}
-                name="М.Төмөрбат"
-                position={{ color: "info", label: "Ерөнхий зураглаач" }}
+                image={team6}
+                name="Б.Гандөл"
+                position={{ color: "info", label: "Эвлүүлэгч, Найруулагч" }}
                 description=""
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
+            <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team4}
-                name="Г.Билгүүн"
-                position={{ color: "info", label: "Зураглаач" }}
+                image={team3}
+                name="М.Төмөрбат"
+                position={{ color: "info", label: "Ерөнхий зураглаач" }}
                 description=""
               />
             </MKBox>
@@ -106,11 +118,11 @@ function Team() {
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
-            <MKBox mb={1}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team6}
-                name="Б.Гандөл"
-                position={{ color: "info", label: "Эвлүүлэгч, Найруулагч" }}
+                image={team4}
+                name="Г.Билгүүн"
+                position={{ color: "info", label: "Зураглаач" }}
                 description=""
               />
             </MKBox>
@@ -121,6 +133,16 @@ function Team() {
                 image={team7}
                 name="Г.Баялагмаа"
                 position={{ color: "info", label: "Менежер" }}
+                description=""
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={1}>
+              <HorizontalTeamCard
+                image={team8}
+                name="Ч. Баярдэлгэр"
+                position={{ color: "info", label: "Эвлүүлгийн найруулагч, Дизайнер" }}
                 description=""
               />
             </MKBox>

@@ -1,5 +1,5 @@
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable react/react-in-jsx-scope */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -53,9 +53,6 @@ function Pages() {
           alignItems="center"
           sx={{ textAlign: "center", my: 0, mx: "auto", px: 0.75 }}
         >
-          <MKTypography variant="h3" fontWeight="bold">
-            Бидэнд байгаа техник
-          </MKTypography>
         </Grid>
       </Container>
       <Container sx={{ mt: { xs: 8, lg: 5 } }}>
@@ -68,7 +65,7 @@ function Pages() {
           <Grid item xs={12} lg={3}>
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                Бидэнд байгаа техник
+              Түрээслүүлэх техник
               </MKTypography>
             </MKBox>
           </Grid>

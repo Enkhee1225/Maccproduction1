@@ -1,8 +1,7 @@
-/* eslint-disable prettier/prettier */
+
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable camelcase */
-/* eslint-disable import/no-extraneous-dependencies */
-/* eslint-disable import/no-unresolved */
+
 /* eslint-disable react/jsx-curly-brace-presence */
 /* eslint-disable react/jsx-boolean-value */
 import React from "react";

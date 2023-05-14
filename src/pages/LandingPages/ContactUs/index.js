@@ -1,10 +1,7 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/style-prop-object */
-/* eslint-disable jsx-a11y/iframe-has-title */
-/* eslint-disable prettier/prettier */
-/* eslint-disable react/self-closing-comp */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -94,13 +91,13 @@ function ContactUs() {
               mt={-3}
             >
               <MKTypography variant="h3" color="white">
-                Холбогдох
+                Холбогдох хаяг
               </MKTypography>
             </MKBox>
             <MKBox p={3}>
               <MKBox py={4} pr={6} pl={{ xs: 6, sm: 10 }} my="auto">
                 <MKTypography variant="h3" color="black" mb={1}>
-                  Холбогдох мэдээлэл
+                  
                 </MKTypography>
                 <MKBox display="flex" p={1}>
                   <MKTypography variant="button" color="black">
@@ -114,7 +111,7 @@ function ContactUs() {
                     ml={2}
                     fontWeight="bold"
                   >
-                    Ажлын утас: 77097575 Гар утас: 88111833
+                    Ажлын утас: 77097575, 88111833
                   </MKTypography>
                 </MKBox>
                 <MKBox display="flex" color="black" p={1}>
@@ -129,7 +126,7 @@ function ContactUs() {
                     ml={2}
                     fontWeight="bold"
                   >
-                    Mass.production0000@gmail.com
+                    Email: Mass.production0000@gmail.com
                   </MKTypography>
                 </MKBox>
                 <MKBox display="flex" color="black" p={1}>
@@ -144,7 +141,7 @@ function ContactUs() {
                     ml={2}
                     fontWeight="bold"
                   >
-                    БЗД-ийн Хүннү гудамж, Олимп Плаза 302 тоот
+                    Хаяг: БЗД-ийн 26-р хороо Хүннү гудамж, Олимп Плаза 302 тоот
                   </MKTypography>
                 </MKBox>
                 <MKBox mt={3}>

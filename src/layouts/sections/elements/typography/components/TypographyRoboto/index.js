@@ -1,6 +1,6 @@
-/* eslint-disable prettier/prettier */
+/* eslint-disable react/react-in-jsx-scope */
+
 /* eslint-disable react/jsx-no-useless-fragment */
-/* eslint-disable import/no-unresolved */
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0

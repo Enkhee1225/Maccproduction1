@@ -1,6 +1,6 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable no-unused-vars */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
+
 /*
 =========================================================
 * Material Kit 2 React - v2.0.0
@@ -73,9 +73,6 @@ function DesignBlocks() {
           alignItems="center"
           sx={{ textAlign: "center", my: 0, mx: "auto", px: 0.75 }}
         >
-          <MKTypography variant="h3" fontWeight="bold">
-            Бидний үйлчилгээнүүд
-          </MKTypography>
         </Grid>
       </Container>
       <Container sx={{ mt: 6 }}>{renderData}</Container>

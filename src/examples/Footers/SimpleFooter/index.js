@@ -1,4 +1,5 @@
-/* eslint-disable import/no-unresolved */
+/* eslint-disable react/react-in-jsx-scope */
+
 /* eslint-disable react/forbid-prop-types */
 /**
 =========================================================

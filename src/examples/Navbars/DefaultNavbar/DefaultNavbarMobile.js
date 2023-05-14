@@ -1,6 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/forbid-prop-types */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
 /**
 =========================================================
 * Material Kit 2 React - v2.0.0
